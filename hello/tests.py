@@ -2,8 +2,7 @@
 #from django.test import TestCase, RequestFactory
 #from .views import index
 import unittest
-from hello import views
-from views import index
+from .views import index
 
 class SimpleTest(unittest.TestCase):
     def setUp(self):
