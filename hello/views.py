@@ -5,8 +5,8 @@ from .models import Greeting
 
 # Create your views here.
 def index(request):
-    return HttpResponse('Hello World!')
-    # return render(request, 'helloworld.html')
+    #return HttpResponse('Hello World!')
+    return render(request, 'helloworld.html')
 	
 
 
